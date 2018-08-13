@@ -7,8 +7,7 @@ class Solution:
         :type A: List[int]
         :rtype: int
         """
-        max_index = 0
-        for i in range(len(A)):
+        return A.index(max(A))
 
 
 def main():
