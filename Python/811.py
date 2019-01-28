@@ -33,5 +33,6 @@ if __name__ == '__main__':
     t = Test(Solution().subdomainVisits)
     i2 = ["9001 discuss.leetcode.com"]
     r2 = ["9001 discuss.leetcode.com", "9001 leetcode.com", "9001 com"]
-    t.equal(sorted(r2, key=lambda x: int(x.split(" ")[0])), sorted(
-        i2, key=lambda x: int(x.split(" ")[0])))
+    t.equal(
+        sorted(r2, key=lambda x: int(x.split(" ")[0])),
+        sorted(i2, key=lambda x: int(x.split(" ")[0])))
