@@ -13,8 +13,9 @@ class Solution:
                 if p[j - 1] == '.':
                     state[i][j] = state[i - 1][j - 1]
                 elif p[j - 1] == '*':
-                    state[i][j] = state[i][j - 1] or state[i][j -
-                                                              2] or (state[i - 1][j] and (s[i - 1] == p[j - 2] or p[j - 2] == '.'))
+                    state[i][j] = state[i][j - 1] or state[i][j - 2] or (
+                        state[i - 1][j] and
+                        (s[i - 1] == p[j - 2] or p[j - 2] == '.'))
                 else:
                     state[i][j] = state[i - 1][j - 1] and s[i - 1] == p[j - 1]
         return state[len(s)][len(p)] == 1
