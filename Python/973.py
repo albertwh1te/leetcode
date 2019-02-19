@@ -31,8 +31,11 @@
 class Solution:
     def kClosest(self, points: 'List[List[int]]',
                  K: 'int') -> 'List[List[int]]':
-        index = sorted([(i, v[0]**v[0] + v[1]**v[1])
-                        for i, v in enumerate(points)], lambda x: x[1])
+        import ipdb
+        ipdb.set_trace()
+        index = sorted(
+            [(i, v[0] * v[0] + v[1] * v[1]) for i, v in enumerate(points)],
+            key=lambda x: x[1])
         return points[index[:K]]
 
 
