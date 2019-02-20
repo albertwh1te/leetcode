@@ -31,14 +31,15 @@
 class Solution:
     def kClosest(self, points: 'List[List[int]]',
                  K: 'int') -> 'List[List[int]]':
-        import ipdb
-        ipdb.set_trace()
         index = sorted(
-            [(i, v[0] * v[0] + v[1] * v[1]) for i, v in enumerate(points)],
+            [(v, v[0] * v[0] + v[1] * v[1]) for i, v in enumerate(points)],
             key=lambda x: x[1])
-        return points[index[:K]]
+        return [i[0] for i in index[:K]]
 
 
 if __name__ == "__main__":
     points = [[3, 3], [5, -1], [-2, 4]]
     print(Solution().kClosest(points, 2))
+    points = [[1, 3], [-2, 2]]
+    K = 1
+    print(Solution().kClosest(points, K))
