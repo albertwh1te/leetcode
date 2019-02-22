@@ -39,8 +39,10 @@
 
 class Solution:
     def nextGreatestLetter(self, letters: 'List[str]', target: 'str') -> 'str':
-        i = 0
-        while i < len(letters):
-            if target > letters[i]:
-                return letters[i:][::-1]
-            i += 1
+        for i, v in enumerate(sorted(letters)):
+            if target < v:
+                return letters[i]
+            if target == v:
+                if letters[(i + 1) % len(letters)] != v:
+                    return letters[(i + 1) % len(letters)]
+        return letters[0]
