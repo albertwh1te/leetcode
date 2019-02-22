@@ -31,12 +31,28 @@ class Solution
     {
         int l = 0;
         int r = A.size();
+        while (1)
+        {
+            int mid = (r + l) / 2;
+            if (A[mid] > A[mid - 1] && A[mid] > A[mid + 1])
+            {
+                return mid;
+            }
+            else if (A[mid] < A[mid - 1])
+            {
+                r = mid + 1;
+            }
+            else if (A[mid] < A[mid + 1])
+            {
+                l = mid;
+            }
+        }
     }
 };
 
 int main()
 {
-    vector<int> test = {0, 2, 1, 0};
+    vector<int> test = {40, 48, 61, 75, 100, 99, 98, 39, 30, 10};
     Solution s = Solution();
     int answer = s.peakIndexInMountainArray(test);
     cout << answer << endl;
