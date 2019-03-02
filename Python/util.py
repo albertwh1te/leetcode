@@ -11,9 +11,7 @@ def equal(reality, expect):
             reality=reality))
     else:
         log('Falil,expect:{expect} but get:{reality}'.format(
-            expect=expect,
-            reality=reality
-        ))
+            expect=expect, reality=reality))
 
 
 class Test(object):
@@ -40,3 +38,8 @@ if __name__ == '__main__':
 
     t2 = Test(foo.fooPlusOne)
     t2.equal(4, 1)
+
+
+def print_matrix(matrix):
+    for i in range(len(matrix)):
+        log(matrix[i])
