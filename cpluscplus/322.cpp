@@ -12,7 +12,6 @@ public:
     dp[0] = 0;
     for (int v = 0; v <= amount; v++)
     {
-      vector<int> tmp;
       for (int i = 0; i < coins.size(); i++)
       {
         if ((v - coins[i] >= 0) && (dp[v - coins[i]] != -1))
@@ -24,7 +23,6 @@ public:
           else
           {
             dp[v] = min(dp[v], dp[v - coins[i]] + 1);
-            cout << dp[v] << endl;
           }
         }
       }
