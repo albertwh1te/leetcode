@@ -61,34 +61,18 @@ from typing import List
 
 class Solution:
     def isValidSudoku(self, board: List[List[str]]) -> bool:
-        column = len(board)
-        row = len(board[0])
-        for i in range(column):
-            check = [False for _ in range(10)]
-            for j in range(row):
+        column_check = [[False for _ in range(9)] for _ in range(9)]
+        row_check = [[False for _ in range(9)] for _ in range(9)]
+        block_check = [[False for _ in range(9)] for _ in range(9)]
+        for i in range(9):
+            for j in range(9):
                 if board[i][j] != ".":
-                    index = ord(board[i][j])-48
-                    if check[index]:
+                    index = ord(board[i][j]) - ord('1')
+                    block_number = i // 3 * 3 + j // 3
+                    if column_check[i][index] or row_check[j][
+                            index] or block_check[block_number][index]:
                         return False
-                    check[index] = True
+                    column_check[i][index] = row_check[j][index] = block_check[
+                        block_number][index] = True
 
-        for j in range(row):
-            check = [False for _ in range(10)]
-            for i in range(column):
-                if board[i][j] != ".":
-                    index = ord(board[i][j]) - 48
-                    if check[index]:
-                        return False
-                    check[index] = True
-
-        for i in range(row, 3):
-            for j in range(column, 3):
-                check = [False for _ in range(10)]
-                for m in range(3):
-                    for n in range(3):
-                        if board[i+m][j+n] != ".":
-                            index = ord(board[i][j]) - 48
-                            if check[index]:
-                                return False
-                            check[index] = True
         return True
