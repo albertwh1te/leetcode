@@ -26,25 +26,35 @@ class Solution(object):
         :type nums: List[int]
         :rtype: List[List[int]]
         """
-        N = len(nums)
-        nums.sort()
-        res = []
-        for t in range(N - 2):
-            if t > 0 and nums[t] == nums[t - 1]:
+        result = []
+        length = len(nums)
+        nums.sort()  # if nums[0] > 0: # return result
+        for i in range(length - 2):
+            #  same as formar
+            if i > 0 and nums[i] == nums[i - 1]:
                 continue
-            i, j = t + 1, N - 1
-            while i < j:
-                _sum = nums[t] + nums[i] + nums[j]
+            left = i + 1
+            right = length - 1
+            while left < right:
+                _sum = nums[left] + nums[i] + nums[right]
                 if _sum == 0:
-                    res.append([nums[t], nums[i], nums[j]])
-                    i += 1
-                    j -= 1
-                    while i < j and nums[i] == nums[i - 1]:
-                        i += 1
-                    while i < j and nums[j] == nums[j + 1]:
-                        j -= 1
+                    result.append([nums[left], nums[i], nums[right]])
+                    left += 1
+                    right -= 1
+                    # same as formar -1
+                    while left < right and nums[left] == nums[left - 1]:
+                        left += 1
+                    # same as formar +1
+                    while left < right and nums[right] == nums[right + 1]:
+                        right -= 1
                 elif _sum < 0:
-                    i += 1
+                    left += 1
                 else:
-                    j -= 1
-        return res
+                    right -= 1
+        return result
+
+
+if __name__ == '__main__':
+    from util import Test
+    t = Test(Solution().threeSum)
+    t.equal([[-1, -1, 2], [-1, 0, 1]], [-1, 0, 1, 2, -1, -4])
