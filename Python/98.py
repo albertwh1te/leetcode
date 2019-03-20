@@ -33,19 +33,13 @@
 
 
 class Solution:
-    def isValidBST_helper(self, root) -> (int, int, bool):
+    def isValidBST_helper(self, root, low, up) -> bool:
+        """
+        return min , max,is_bst
+        """
         if not root:
             return True
-        is_bst_l = self.isValidBST_helper(root.left)
-        if not is_bst_l:
-            return False
-        is_bst_r = self.isValidBST_helper(root.right)
-        if not is_bst_r:
-            return False
-        if root.left < root.val and root.right > root.val:
-            return True
-        else:
-            return False
+        return (root.val < up and root.val > low) and self.isValidBST_helper(root.left, low, root.val) and self.isValidBST_helper(root.right, root.val, up)
 
     def isValidBST(self, root: TreeNode) -> bool:
-        return self.isValidBST_helper(root)
+        return self.isValidBST_helper(root, float('-inf'), float('inf'))
