@@ -22,3 +22,38 @@ class Solution:
         """
         Do not return anything, modify nums1 in-place instead.
         """
+        result = [0 for _ in nums1]
+        count = 0
+        p1 = 0
+        p2 = 0
+        while p1 < m and p2 < n:
+            if nums1[p1] < nums2[p2]:
+                result[count] = nums1[p1]
+                p1 += 1
+            else:
+                result[count] = nums2[p2]
+                p2 += 1
+            count += 1
+
+        while p1 < m:
+            result[count] = nums1[p1]
+            p1 += 1
+            count += 1
+
+        while p2 < n:
+            result[count] = nums2[p2]
+            p2 += 1
+            count += 1
+
+        for i in range(len(nums1)):
+            nums1[i] = result[i]
+
+
+if __name__ == '__main__':
+    nums1 = [1, 2, 3, 0, 0, 0]
+    nums2 = [2, 5, 6]
+    Solution().merge(nums1, 3, nums2, 3)
+    print(nums1)
+    nums1 = [1]
+    Solution().merge(nums1, 1, [], 0)
+    print(nums1)
