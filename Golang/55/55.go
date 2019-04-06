@@ -1,4 +1,4 @@
-package main
+package canJump
 
 func canJump(nums []int) bool {
 	mostFar := nums[0]
