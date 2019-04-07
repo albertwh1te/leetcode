@@ -11,6 +11,8 @@
 
 class Solution:
     def countPrimes(self, n: int) -> int:
+        # Solution
+        # http://www.cnblogs.com/grandyang/p/4462810.html
         if n <= 2:
             return 0
         prime = [1 for i in range(n+1)]
