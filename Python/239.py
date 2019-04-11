@@ -32,19 +32,29 @@ from collections import deque
 
 class Solution:
     def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+        # corner case
         if len(nums) < 1 or len(nums) < k:
             return []
+        # init result array
         result = [0 for _ in range(len(nums) - k + 1)]
-        max_deque = deque()
         index = 0
+        # init a deque to store max value
+        max_deque = deque()
         for i in range(len(nums)):
+            # if deque is not  empty and  find bigger value,
+            # pop out the value at the end of deque
             while len(max_deque) != 0 and nums[i] >= nums[max_deque[-1]]:
                 max_deque.pop()
 
+            # if deque is empty or there is no value less than nums[i]
+            # append it to right side
             max_deque.append(i)
+
+            # if the head of deque is outdated, pop it out
             if max_deque[0] == i - k:
                 max_deque.popleft()
 
+            # start to store the value when i > k - 1 (it mean the deque has k values)
             if i >= (k - 1):
                 result[index] = nums[max_deque[0]]
                 index += 1
