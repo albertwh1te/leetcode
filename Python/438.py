@@ -30,6 +30,8 @@
 # The substring with start index = 0 is "ab", which is an anagram of "ab".
 # The substring with start index = 1 is "ba", which is an anagram of "ab".
 # The substring with start index = 2 is "ab", which is an anagram of "ab".
+
+# Solution : slide window
 from typing import List
 class Solution:
     def findAnagrams(self, s: str, p: str) -> List[int]:
