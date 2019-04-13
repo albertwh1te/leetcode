@@ -20,8 +20,8 @@ class Solution:
     def largestRectangleArea(self, heights: List[int]) -> int:
         maximum = float("-inf")
         min_stack = []
-        for i in range(len(heights)):
-            while len(min_stack) != 0 and heights[i] < heights[min_stack[-1]]:
+        for i, v in enumerate(heights):
+            while len(min_stack) != 0 and v < heights[min_stack[-1]]:
                 current_index = min_stack.pop()
                 left = min_stack[-1] if len(min_stack) else -1
                 current_area = (i - left - 1) * heights[current_index]

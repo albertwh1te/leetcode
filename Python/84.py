@@ -25,7 +25,7 @@ class Solution:
         # from bottom to top ,value of index is from low to high
         min_stack = []
         for i, v in enumerate(heights):
-            while len(min_stack) and heights[i] < heights[min_stack[-1]]:
+            while len(min_stack) and v < heights[min_stack[-1]]:
                 current_index = min_stack.pop()
                 left = -1 if len(min_stack) == 0 else min_stack[-1]
                 # right is i, because current index is pop out when meet heights[i]
