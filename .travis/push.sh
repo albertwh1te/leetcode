@@ -6,13 +6,13 @@ setup_git() {
 }
 
 commit_website_files() {
-  git add README.md
+  git add . 
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER update README.md"
 }
 
 upload_files() {
-  git remote add origin https://${GH_TOKEN}@github.com/MarkWh1te/leetcode/ > /dev/null 2>&1
-  git push --quiet origin master 
+  git remote add origin https://${GH_TOKEN}@github.com/MarkWh1te/leetcode.git > /dev/null 2>&1
+  git push -f origin master 
 }
 
 setup_git
