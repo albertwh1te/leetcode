@@ -95,6 +95,7 @@ def main():
     problems = reversed(get_all_problems()["stat_status_pairs"])
     solved = list(filter(solved_filter, problems))
     generate_markdown(solved)
+    print("update README.md success!")
 
 
 if __name__ == "__main__":
