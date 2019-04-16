@@ -53,7 +53,7 @@ def generate_markdown_table(file_path, items):
     with open(file_path, 'a') as f:
         f.write("I have solved these problems.\n")
         f.write("| ID | Title | Python | C++ | Go |\n")
-        f.write('|:---:' * 5 + '|\n')
+        f.write('|---' * 5 + '|\n')
         for item in items:
             info = item['stat']
             question_id = info["question_id"]
