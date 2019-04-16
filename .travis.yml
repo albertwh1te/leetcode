@@ -7,7 +7,7 @@ install:
 script:
 - python update_readme.py
 after_script:
-- git remote set-url origin git@github.com:MarkWh1te/leetcode.git
+#- git remote set-url origin git@github.com:MarkWh1te/leetcode.git
 - git status
 - git add README.md
 - git status
