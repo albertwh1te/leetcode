@@ -43,9 +43,6 @@ def generate_markdown_head(file_path):
         f.write(
             "# :smiley: Let's have fun with LeetCode! [![Build Status](https://travis-ci.org/MarkWh1te/leetcode.svg?branch=master)](https://travis-ci.org/MarkWh1te/leetcode)\n\n"
         )
-        f.write(
-            "## My LeetCode account is :point_right: [here.](https://leetcode.com/iamwh1temark/)\n\n"
-        )
 
 
 def generate_markdown_table(file_path, items):
