@@ -47,7 +47,7 @@ def generate_markdown_head(file_path):
 
 
 def generate_markdown_table(file_path, items):
-    python_ids, golang_ids, cplusplus_ids = get_solved_by_language()
+    python_ids, cplusplus_ids, golang_ids = get_solved_by_language()
     github_leetcode_url = 'https://github.com/hey-bruce/algorithms_and_oj/blob/master/leetcode-algorithms/'
     leetcode_url = 'https://leetcode.com/problems/'
     with open(file_path, 'a') as f:
