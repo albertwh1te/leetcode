@@ -40,9 +40,9 @@ def solved_filter(item):
 
 def generate_markdown_head(file_path):
     with open(file_path, 'w') as f:
-        f.write("# Let's have fun with LeetCode !:smiley:\n")
+        f.write("# Let's have fun with LeetCode !:smiley:\n\n")
         f.write(
-            "## My LeetCode account is :point_right: [here.](https://leetcode.com/iamwh1temark/)\n"
+            "## My LeetCode account is :point_right: [here.](https://leetcode.com/iamwh1temark/)\n\n"
         )
 
 
@@ -51,8 +51,8 @@ def generate_markdown_table(file_path, items):
     github_leetcode_url = 'https://github.com/hey-bruce/algorithms_and_oj/blob/master/leetcode-algorithms/'
     leetcode_url = 'https://leetcode.com/problems/'
     with open(file_path, 'a') as f:
-        f.write("I have solved these problems.\n")
-        f.write("\n\n")
+        f.write("I have solved these problems.\n\n")
+        f.write("\n")
         f.write("| ID | Title | Python | C++ | Go |\n")
         f.write('|---' * 5 + '|\n')
         for item in items:
