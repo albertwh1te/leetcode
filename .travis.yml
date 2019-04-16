@@ -18,13 +18,10 @@ branches:
   only:
   - master
 before_install:
-- openssl aes-256-cbc -K $encrypted_7bc49274c3c9_key -iv $encrypted_7bc49274c3c9_iv
-  -in id_rsa.enc -out id_rsa -d
-  # 改变文件权限
-- chmod 600 ~/id_rsa 
-# 配置 ssh
+- openssl aes-256-cbc -K $encrypted_7bc49274c3c9_key -iv $encrypted_7bc49274c3c9_iv -in .travis/id_rsa.enc -out ~/.ssh/id_rsa -d
+- chmod 600 ~/.ssh/id_rsa
 - eval $(ssh-agent)
-- ssh-add ~/id_rsa
+- ssh-add ~/.ssh/id_rsa
 - cp .travis/ssh_config ~/.ssh/config
 # 配置 git 替换为自己的信息
 - git config --global user.name 'MarkWh1te'
