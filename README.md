@@ -2,7 +2,7 @@
 ## My LeetCode account is :point_right: [here.](https://leetcode.com/iamwh1temark/)
 I have solved these problems.
 | ID | Title | Python | C++ | Go |
-|:---:|:---:|:---:|:---:|:---:|
+|---|---|---|---|---|
 |1|[Two Sum](https://leetcode.com/problems/two-sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/1/1.go)|
 |2|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/2.py)|TODO|TODO|
 |3|[Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/3.py)|TODO|TODO|
