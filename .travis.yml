@@ -8,9 +8,11 @@ script:
 - python update_readme.py
 after_script:
 - git remote set-url origin git@github.com:MarkWh1te/leetcode.git
-- git add .
+- git status
+- git add README.md
+- git status
 - git commit -m "Update docs"
-- git push origin master
+- git push -f origin master
 env:
   global:
     secure: s9q7lqVkkf52fqp3u5uw+q3mrWgY8QgC4mAhCSksO/xrgooAYZJJZZDFtjFNgbkW9NcVYhmFrxO9owJOTzZFryVfty2w/HVUMiEViakOY7FZQ9HO/Ei3n4awfkWKTF1Hbiz5o4oQErY51+HdITbnbX3lQeg575QiLx6rHk9xPZSUdo8jgTmWAHn6KIOwKVOMre+piMcBVo4IoUqgJTSG3c9fcChvfFvTPtiXHnP41Fmxxo4Dkdvqbne+RQjcdFwRDHR0Z6IGDhypXCidOOHrN5UcYwN2asi7xppCcTQRLdlNdbNbG7cpwoMHPF2aFIZPfxEqvABYnqfO0VHtmaHxmJtchtQeJUTQuyoUPGNUv/rK57+urUuOut6iG9Zx7Ik6MAA5Z+qxbUQwjyZ5Ars1BZiDQbxQkbJ7qTas67P/dNzqF9iEDj6FteAILVZJFN6paWaTxpeYgIN91fkDhknuMhbboRjlfW5IttcyEBpVxrXMBsR1uKUCHWhB1G/qViiUSZ2ZrY6FQUP3ANmqRiDLqlL8CzUiHXU0UCE6l5/bpqGMcP/IOqojUKMbVBoYHAphGpjXwoNaCjpB6utQVWHrubgzaCUqwaaJssutVCu+i4sz1brUtLlM/zgNsnCAhehtPlwnbELCdAwIBNTvrUCEwa5dtD87UbVaT4/9RAGZX6o=
