@@ -6,28 +6,26 @@ install:
 - pip install requests
 script:
 - python update_readme.py
-
-
-# S: Build Lifecycle
 after_script:
-  - git init
-  - git config user.name "MarkWh1te"
-  - git config user.email "iamwh1temark@outlook.com"
-  - git add .
-  - git commit -m "Update docs"
-  # - git push -f "https://${GH_TOKEN}@${GH_REF}" master:master
-  - git remote set-url --push origin https://${GH_TOKEN}@${GH_REF}
-  - git push origin master
-
-# E: Build LifeCycle
-
-
-
+- git add .
+- git commit -m "Update docs"
+- git push origin master
 env:
   global:
     secure: s9q7lqVkkf52fqp3u5uw+q3mrWgY8QgC4mAhCSksO/xrgooAYZJJZZDFtjFNgbkW9NcVYhmFrxO9owJOTzZFryVfty2w/HVUMiEViakOY7FZQ9HO/Ei3n4awfkWKTF1Hbiz5o4oQErY51+HdITbnbX3lQeg575QiLx6rHk9xPZSUdo8jgTmWAHn6KIOwKVOMre+piMcBVo4IoUqgJTSG3c9fcChvfFvTPtiXHnP41Fmxxo4Dkdvqbne+RQjcdFwRDHR0Z6IGDhypXCidOOHrN5UcYwN2asi7xppCcTQRLdlNdbNbG7cpwoMHPF2aFIZPfxEqvABYnqfO0VHtmaHxmJtchtQeJUTQuyoUPGNUv/rK57+urUuOut6iG9Zx7Ik6MAA5Z+qxbUQwjyZ5Ars1BZiDQbxQkbJ7qTas67P/dNzqF9iEDj6FteAILVZJFN6paWaTxpeYgIN91fkDhknuMhbboRjlfW5IttcyEBpVxrXMBsR1uKUCHWhB1G/qViiUSZ2ZrY6FQUP3ANmqRiDLqlL8CzUiHXU0UCE6l5/bpqGMcP/IOqojUKMbVBoYHAphGpjXwoNaCjpB6utQVWHrubgzaCUqwaaJssutVCu+i4sz1brUtLlM/zgNsnCAhehtPlwnbELCdAwIBNTvrUCEwa5dtD87UbVaT4/9RAGZX6o=
     GH_REF: github.com/MarkWh1te/leetcode.git
-
 branches:
   only:
-    - master
+  - master
+before_install:
+- openssl aes-256-cbc -K $encrypted_7bc49274c3c9_key -iv $encrypted_7bc49274c3c9_iv
+  -in id_rsa.enc -out id_rsa -d
+  # 改变文件权限
+- chmod 600 ~/id_rsa 
+# 配置 ssh
+- eval $(ssh-agent)
+- ssh-add ~/id_rsa
+- cp .travis/ssh_config ~/.ssh/config
+# 配置 git 替换为自己的信息
+- git config --global user.name 'MarkWh1te'
+- git config --global user.email 'iamwh1temark@outlook.com' 
