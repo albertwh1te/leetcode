@@ -1,5 +1,5 @@
 Host github.com
-    User git
+    User MarkWh1te 
     StrictHostKeyChecking no
     IdentityFile ~/.ssh/id_rsa
     IdentitiesOnly yes
