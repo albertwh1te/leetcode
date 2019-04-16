@@ -52,6 +52,7 @@ def generate_markdown_table(file_path, items):
     leetcode_url = 'https://leetcode.com/problems/'
     with open(file_path, 'a') as f:
         f.write("I have solved these problems.\n")
+        f.write("\n\n")
         f.write("| ID | Title | Python | C++ | Go |\n")
         f.write('|---' * 5 + '|\n')
         for item in items:
