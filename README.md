@@ -1,4 +1,4 @@
-# Let's have fun with LeetCode !:smiley:
+:smiley:# Let's have fun with LeetCode! [![Build Status](https://travis-ci.org/MarkWh1te/leetcode.svg?branch=master)](https://travis-ci.org/MarkWh1te/leetcode)
 
 ## My LeetCode account is :point_right: [here.](https://leetcode.com/iamwh1temark/)
 
