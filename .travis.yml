@@ -29,3 +29,7 @@ before_install:
 # 配置 git 替换为自己的信息
 - git config --global user.name 'MarkWh1te'
 - git config --global user.email 'iamwh1temark@outlook.com' 
+# - git rebase HEAD master
+- git checkout master
+
+
