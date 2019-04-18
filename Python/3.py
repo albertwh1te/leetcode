@@ -68,10 +68,10 @@ class Solution:
         answer, left, right = 0, 0, 0
         # 128 for ascii
         index = [0 for i in range(128)]
-        while left < length:
-            if index[ord(s[left])]:
-                right = max(index[ord(s[left])], right)
-            index[ord(s[left])] = left + 1
-            left += 1
-            answer = max(answer, left - right)
+        while right < length:
+            if index[ord(s[right])]:
+                left = max(index[ord(s[right])], left)
+            index[ord(s[right])] = right + 1
+            right += 1
+            answer = max(answer, right - left)
         return answer
