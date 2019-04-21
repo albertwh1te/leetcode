@@ -11,6 +11,7 @@ I have solved these problems.
 |5|[Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/5.py)|TODO|TODO|
 |7|[Reverse Integer](https://leetcode.com/problems/reverse-integer/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/7.py)|TODO|TODO|
 |8|[String to Integer (atoi)](https://leetcode.com/problems/string-to-integer-atoi/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/8.py)|TODO|TODO|
+|9|[Palindrome Number](https://leetcode.com/problems/palindrome-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/9.py)|TODO|TODO|
 |10|[Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/10.py)|TODO|TODO|
 |13|[Roman to Integer](https://leetcode.com/problems/roman-to-integer/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/13.py)|TODO|TODO|
 |14|[Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/14.py)|TODO|TODO|
