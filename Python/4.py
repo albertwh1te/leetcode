@@ -55,7 +55,7 @@ class Solution:
         mid_1 = self.find_k_th(nums1, nums2, mid + 1)
         if length % 2 != 0:
             return mid_1
-        return (mid_1 + self.find_k_th(nums1, nums2, mid)) >> 1
+        return (mid_1 + self.find_k_th(nums1, nums2, mid)) / 2
 
 
 if __name__ == '__main__':
