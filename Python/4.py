@@ -24,26 +24,25 @@ from typing import List
 class Solution:
     def find_k_th(self, nums1, nums2, k):
         """
-        return the k-th in element of nums1 and nums2
+        find k-th value from nums1 and nums2
         """
-        # always assure len(nums1) < len(nums2)
-        if len(nums1) > len(nums2):
+        m = len(nums1)
+        n = len(nums2)
+        # expect n is equal or smaller than m
+        if m > n:
             return self.find_k_th(nums2, nums1, k)
-
-        # corner case
-        if len(nums1) == 0:
+        if m == 0:
             return nums2[k - 1]
-
-        if (k == 1):
+        if k == 1:
             return min(nums1[0], nums2[0])
-
-        p_a = min(k / 2, len(nums1))
-        p_b = k - p_a
-
-        if a[p_a - 1] < b[p_a - 1]:
-            return self.find_k_th()
-
-        return 0
+        p1 = min(int(k / 2), m)
+        p2 = k - p1
+        if nums1[p1 - 1] <= nums2[p2 - 1]:
+            return self.find_k_th(nums1[p1:], nums2, p2)
+        else:
+            return self.find_k_th(nums1, nums2[p2:], p1)
+        # else:
+        # return nums1[]
 
     def findMedianSortedArrays(self, nums1: List[int],
                                nums2: List[int]) -> float:
@@ -64,3 +63,4 @@ if __name__ == '__main__':
     s = Solution()
     t = Test(s.findMedianSortedArrays)
     t.equal(2, [1, 2], [2])
+    t.equal(1, [1], [2])
