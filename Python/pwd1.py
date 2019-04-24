@@ -1,2 +1,0 @@
-def printme():
-    print('fdaf')
