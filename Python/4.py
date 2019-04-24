@@ -41,8 +41,6 @@ class Solution:
             return self.find_k_th(nums1[p1:], nums2, p2)
         else:
             return self.find_k_th(nums1, nums2[p2:], p1)
-        # else:
-        # return nums1[]
 
     def findMedianSortedArrays(self, nums1: List[int],
                                nums2: List[int]) -> float:
