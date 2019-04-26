@@ -28,7 +28,7 @@ class Solution:
         """
         m = len(nums1)
         n = len(nums2)
-        # expect n is equal or smaller than m
+        # expect m is equal or smaller than n
         if m > n:
             return self.find_k_th(nums2, nums1, k)
         if m == 0:
