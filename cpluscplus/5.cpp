@@ -21,8 +21,9 @@ class Solution
             return s;
         }
 
-        int start, end;
+        int start;
         int max_length = 0;
+        // TODO: fix error: variable-sized object may not be initialized
         bool dp[n][n] = {{false}};
         {
             for (size_t i = 0; i < s.size(); i++)
@@ -35,7 +36,6 @@ class Solution
                     {
                         max_length = i - j + 1;
                         start = j;
-                        end = i;
                     }
                 }
             }
