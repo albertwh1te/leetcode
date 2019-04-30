@@ -62,3 +62,4 @@ if __name__ == '__main__':
     t = Test(s.findMedianSortedArrays)
     t.equal(2, [1, 2], [2])
     t.equal(1, [1], [2])
+    t.equal(2, [1, 3], [2])
