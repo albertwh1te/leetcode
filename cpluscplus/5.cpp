@@ -1,5 +1,6 @@
 // 5. Longest Palindromic Substring
 #include <iostream>
+#include <vector>
 #include <string>
 using namespace std;
 
@@ -13,18 +14,16 @@ class Solution
     // =  s[i] == s[j]   if j = i+1
     // =  s[i] == s[j] && dp[i+1][j-1]  if j>i+1
     // dp(0,0) = True
-
     {
         int n = s.size();
         if (n <= 1)
         {
             return s;
         }
-
         int start;
         int max_length = 0;
-        // TODO: fix error: variable-sized object may not be initialized
-        bool dp[n][n] = {{false}};
+        vector<bool> row(n, false);
+        vector<vector<bool>> dp(n, row);
         {
             for (size_t i = 0; i < s.size(); i++)
             {
@@ -39,7 +38,11 @@ class Solution
                     }
                 }
             }
-            return s;
+        }
+        //  corner case
+        if (max_length == 0)
+        {
+            return s.substr(start, 1);
         }
         return s.substr(start, max_length);
     }
@@ -49,8 +52,16 @@ int main()
 {
     Solution s = Solution();
     string t = "babad";
-    cout << t << "should be 'bab' : " << s.longestPalindrome(t) << endl;
+    string r = s.longestPalindrome(t);
+    cout << t << "should be 'bab' : " << r << "\n"
+         << endl;
     t = "cbbd";
-    cout << t << "should be 'bb' : " << s.longestPalindrome(t) << endl;
+    r = s.longestPalindrome(t);
+    cout << t << "should be 'bb' : " << r << "\n"
+         << endl;
+    t = "ac";
+    r = s.longestPalindrome(t);
+    cout << t << "should be 'a' : " << r << "\n"
+         << endl;
     return 0;
 }
