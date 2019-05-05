@@ -24,7 +24,8 @@ class Solution:
         Consider the case "ababa".
         If we already knew that "bab" is a palindrome,
         it is obvious that "ababa" must be a palindrome since the two left and right end letters are the same.
-        We define P(i,j)P(i,j) as following:
+        We define P(i,j)
+        P(i,j) as following:
         P[i,j] = 1  if i ==j
         =  S[i] ==S[j]   if j = i+1
         =  S[i] == S[j] && P[i+1][j-1]  if j>i+1
