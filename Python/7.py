@@ -22,20 +22,23 @@
 
 class Solution:
     def reverse(self, x: int) -> int:
+        flag = 1
+        if x < 0:
+            flag = -1
+            x = abs(x)
         result = 0
         while x != 0:
-            print(x, "))", result)
             result = result * 10 + x % 10
             if abs(result) > (2**31 - 1):
                 return 0
             x = x // 10
-        return result
+        return result * flag
 
 
 if __name__ == '__main__':
     from util import Test
     t = Test(Solution().reverse)
-    # t.equal(321, 123)
+    t.equal(321, 123)
     t.equal(-321, -123)
-    # t.equal(0, 1534236469)
-    # t.equal(0, 1563847412)
+    t.equal(0, 1534236469)
+    t.equal(0, 1563847412)
