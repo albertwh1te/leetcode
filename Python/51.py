@@ -21,21 +21,52 @@
 #   ".Q.."]
 # ]
 # Explanation: There exist two distinct solutions to the 4-queens puzzle as shown above.
+
 from typing import List
 
 
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        result = []
+        """
+        We place queens on the board one row at a time,
+        starting with the top row. To place the rth queen, we methodically try all n squares in
+        row r from left to right in a simple for loop. If a particular square is attacked by
+        an earlier queen, we ignore that square; otherwise, we tentatively place a queen
+        on that square and recursively grope for consistent placements of the queens in
+        later rows
+        """
+        results = []
 
-        Q = [0 for _ in range(n)]
+        Q = [-1 for _ in range(n)]
 
-        def N_Queens(Q: List[int], n: int):
-            if n == len(Q):
-                return Q
+        def Place_Queens(Q: List[int], r: int):
+            if r == len(Q):
+                result = []
+                # Q = [""]
+                for i in Q:
+                    result.append("".join(
+                        ["." if x != i else "Q" for x in range(n)]))
+                results.append(result)
             else:
                 for j in range(len(Q)):
                     legal = True
-                    for i in range(n-1)
+                    for i in range(r):
+                        if ((Q[i] == j) or (Q[i] == j + r - i)
+                                or (Q[i] == j - r + i)):
+                            legal = False
+                    if (legal):
+                        Q[r] = j
+                        Place_Queens(Q, r + 1)
 
-        return result
+        Place_Queens(Q, 0)
+
+        return results
+
+
+if __name__ == '__main__':
+    from util import Test
+    s = Solution()
+    result = [[".Q..", "...Q", "Q...", "..Q."],
+              ["..Q.", "Q...", "...Q", ".Q.."]]
+    t = Test(s.solveNQueens)
+    t.equal(result, 4)
