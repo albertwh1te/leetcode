@@ -70,7 +70,7 @@ I have solved these problems.
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/189.py)|TODO|TODO|
 |198|[House Robber](https://leetcode.com/problems/house-robber/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/198.py)|TODO|TODO|
 |200|[Number of Islands](https://leetcode.com/problems/number-of-islands/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/200.py)|TODO|TODO|
-|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/203.py)|TODO|TODO|
+|203|[Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/203.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/203.cpp)|TODO|
 |204|[Count Primes](https://leetcode.com/problems/count-primes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/204.py)|TODO|TODO|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/206.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/206/206.go)|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/213.py)|TODO|TODO|
