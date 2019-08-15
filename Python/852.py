@@ -7,7 +7,17 @@ class Solution:
         :type A: List[int]
         :rtype: int
         """
-        return A.index(max(A))
+        # return A.index(max(A))
+        left = 0
+        right = len(A)
+        while 1:
+            mid = (right + left) >> 1
+            if A[mid - 1] < A[mid] and A[mid] > A[mid + 1]:
+                return mid
+            elif A[mid - 1] > A[mid]:
+                right = mid + 1
+            else:
+                left = mid
 
 
 def main():
