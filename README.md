@@ -65,6 +65,7 @@ I have solved these problems.
 |136|[Single Number](https://leetcode.com/problems/single-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/136.py)|TODO|TODO|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/141.py)|TODO|TODO|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/152.py)|TODO|TODO|
+|153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/153.py)|TODO|TODO|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/155.py)|TODO|TODO|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/160.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/160.cpp)|TODO|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/167.cpp)|TODO|
