@@ -25,6 +25,7 @@ I have solved these problems.
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/22.py)|TODO|TODO|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/26.py)|TODO|TODO|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/28.py)|TODO|TODO|
+|33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/33.py)|TODO|TODO|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/35.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/35.cpp)|TODO|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/36.py)|TODO|TODO|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/38.py)|TODO|TODO|
