@@ -46,6 +46,7 @@ I have solved these problems.
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/73.py)|TODO|TODO|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/74.py)|TODO|TODO|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/77.py)|TODO|TODO|
+|79|[Word Search](https://leetcode.com/problems/word-search/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/79.py)|TODO|TODO|
 |80|[Remove Duplicates from Sorted Array II](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/80.py)|TODO|TODO|
 |81|[Search in Rotated Sorted Array II](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/81.py)|TODO|TODO|
 |84|[Largest Rectangle in Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/84.py)|TODO|TODO|
