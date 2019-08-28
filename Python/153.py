@@ -31,17 +31,22 @@ from typing import List
 ## CASE 2 mid >= end, nums[start: mid] is sorted minum is in nums[mid+1,end]
 
 
+def find_min(nums: List[int], left: int, right: int):
+    # if nums only has two elements,return the smaller one
+    if right - left <= 1:
+        return min(nums[right], nums[left])
+    # if nums[left,right+1] is sorted, return the head
+    if nums[left] < nums[right]:
+        return nums[left]
+    mid = left + ((right - left) >> 1)
+    return min(find_min(nums, left, mid), find_min(nums, mid + 1, right))
+
+
 class Solution:
     def findMin(self, nums: List[int]) -> int:
         left = 0
         right = len(nums) - 1
-        while left <= right:
-            mid = left + ((right - left) >> 1)
-            if nums[mid] < nums[right]:
-                right = mid
-            else:
-                left = mid + 1
-        return nums[mid]
+        return find_min(nums, left, right)
 
 
 def main():
