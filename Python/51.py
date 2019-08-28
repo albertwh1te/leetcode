@@ -29,11 +29,16 @@ class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
         """
         We place queens on the board one row at a time,
-        starting with the top row. To place the rth queen, we methodically try all n squares in
-        row r from left to right in a simple for loop. If a particular square is attacked by
-        an earlier queen, we ignore that square; otherwise, we tentatively place a queen
-        on that square and recursively grope for consistent placements of the queens in
-        later rows
+        starting with the top row.
+        To place the rth queen,
+        we methodically try all n squares in row r
+        from left to right in a simple for loop.
+        If a particular square is attacked by an earlier queen,
+        we ignore that square;
+        otherwise,
+        we tentatively place a queen on that
+        square and recursively grope for consistent placements of
+        the queens in later rows
         """
         results = []
 
@@ -42,7 +47,7 @@ class Solution:
         def Place_Queens(Q: List[int], r: int):
             if r == len(Q):
                 result = []
-                # Q = [""]
+                # convert result to answer
                 for i in Q:
                     result.append("".join(
                         ["." if x != i else "Q" for x in range(n)]))
