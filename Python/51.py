@@ -53,17 +53,23 @@ class Solution:
                         ["." if x != i else "Q" for x in range(n)]))
                 results.append(result)
             else:
-                # logic is at here
+                # The outer for-loop considers all possible placements
+                # of a queen on row r;
                 for j in range(len(Q)):
                     legal = True
+                    # the inner for-loop checks whether a candidate
+                    # placement of row r is consistent with
+                    # the queens that are already on the ﬁrst r − 1 rows.
                     for i in range(r):
                         if (
-                                # horizontally upper
-                            (Q[i] == j) or
-                                # diagonally left
-                            (Q[i] == j + r - i) or
-                                # diagonally right
-                            (Q[i] == j - r + i)):
+                            # check horizontally : if the line above occupy
+                            # same x,horizontally illegel
+                                (Q[i] == j) or
+                            # diagonally left
+                                (Q[i] == j - (i-r)) or
+                            # diagonally right
+                                (Q[i] == j + (i-r))
+                        ):
                             legal = False
                     if (legal):
                         Q[r] = j
