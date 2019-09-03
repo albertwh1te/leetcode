@@ -65,10 +65,11 @@ class Solution:
                             # check horizontally : if the line above occupy
                             # same x,horizontally illegel
                                 (Q[i] == j) or
-                            # diagonally left
-                                (Q[i] == j - (i-r)) or
+                            # https: // i.loli.net/2019/09/03/qvfk2x4RQltwy8d.png
                             # diagonally right
-                                (Q[i] == j + (i-r))
+                                (Q[i] == j + (r-i)) or
+                            # diagonally left
+                                (Q[i] == j - (r-i))
                         ):
                             legal = False
                     if (legal):
