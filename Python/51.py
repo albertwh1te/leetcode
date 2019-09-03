@@ -1,5 +1,4 @@
-# 51. N-Queens
-# The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+# 51. N-Queens # The n-queens puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
 
 # Given an integer n, return all distinct solutions to the n-queens puzzle.
 
@@ -39,6 +38,7 @@ class Solution:
         we tentatively place a queen on that
         square and recursively grope for consistent placements of
         the queens in later rows
+        -- Algorithm By Jeff Erickson
         """
         results = []
 
@@ -53,11 +53,17 @@ class Solution:
                         ["." if x != i else "Q" for x in range(n)]))
                 results.append(result)
             else:
+                # logic is at here
                 for j in range(len(Q)):
                     legal = True
                     for i in range(r):
-                        if ((Q[i] == j) or (Q[i] == j + r - i)
-                                or (Q[i] == j - r + i)):
+                        if (
+                                # horizontally upper
+                            (Q[i] == j) or
+                                # diagonally left
+                            (Q[i] == j + r - i) or
+                                # diagonally right
+                            (Q[i] == j - r + i)):
                             legal = False
                     if (legal):
                         Q[r] = j
