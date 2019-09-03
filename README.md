@@ -60,6 +60,8 @@ I have solved these problems.
 |106|[Construct Binary Tree from Inorder and Postorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/106.py)|TODO|TODO|
 |108|[Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/108.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/108/108.go)|
 |109|[Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/109.py)|TODO|TODO|
+|112|[Path Sum](https://leetcode.com/problems/path-sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/112.py)|TODO|TODO|
+|113|[Path Sum II](https://leetcode.com/problems/path-sum-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/113.py)|TODO|TODO|
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/121.py)|TODO|TODO|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/122.py)|TODO|TODO|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/125.py)|TODO|TODO|
