@@ -34,6 +34,7 @@ I have solved these problems.
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/48.py)|TODO|TODO|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/49.py)|TODO|TODO|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/51.py)|TODO|TODO|
+|52|[N-Queens II](https://leetcode.com/problems/n-queens-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/52.py)|TODO|TODO|
 |53|[Maximum Subarray](https://leetcode.com/problems/maximum-subarray/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/53.py)|TODO|TODO|
 |55|[Jump Game](https://leetcode.com/problems/jump-game/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/55.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/55/55.go)|
 |59|[Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/59.py)|TODO|TODO|
