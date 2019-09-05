@@ -28,6 +28,7 @@ I have solved these problems.
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/33.py)|TODO|TODO|
 |35|[Search Insert Position](https://leetcode.com/problems/search-insert-position/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/35.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/35.cpp)|TODO|
 |36|[Valid Sudoku](https://leetcode.com/problems/valid-sudoku/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/36.py)|TODO|TODO|
+|37|[Sudoku Solver](https://leetcode.com/problems/sudoku-solver/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/37.py)|TODO|TODO|
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/38.py)|TODO|TODO|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/39.py)|TODO|TODO|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/42.py)|TODO|TODO|
