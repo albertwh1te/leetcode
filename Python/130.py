@@ -34,8 +34,6 @@ class Solution:
         if x < 0 or y < 0 or y >= self.columns or x >= self.rows:
             return
         if board[y][x] == "O":
-            import ipdb
-            ipdb.set_trace()
             board[y][x] = "$"
             self.helper(x - 1, y, board)
             self.helper(x + 1, y, board)
@@ -66,7 +64,7 @@ class Solution:
         for y in range(self.columns):
             for x in range(self.rows):
                 if board[y][x] == "O":
-                    board[y][x] == "X"
+                    board[y][x] = "X"
         self.process(board)
 
 
