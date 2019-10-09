@@ -58,6 +58,8 @@ class Solution:
         """
         Do not return anything, modify board in-place instead.
         """
+        if len(board) <=0 or len(board[0]) <= 0:
+            return board
         self.columns = len(board)
         self.rows = len(board[0])
         self.preprocess(board)
