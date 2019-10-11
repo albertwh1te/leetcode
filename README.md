@@ -134,6 +134,7 @@ I have solved these problems.
 |669|[Trim a Binary Search Tree](https://leetcode.com/problems/trim-a-binary-search-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/669.py)|TODO|TODO|
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/677.py)|TODO|TODO|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/693.py)|TODO|TODO|
+|695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/695.py)|TODO|TODO|
 |744|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/744.py)|TODO|TODO|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/746.py)|TODO|TODO|
 |763|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/763.py)|TODO|TODO|
@@ -152,4 +153,5 @@ I have solved these problems.
 |969|[Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/969.py)|TODO|TODO|
 |973|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/973.py)|TODO|TODO|
 |977|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/977.py)|TODO|TODO|
+|979|[DI String Match](https://leetcode.com/problems/di-string-match/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/979.py)|TODO|TODO|
 |1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1071.py)|TODO|TODO|
