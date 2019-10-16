@@ -52,22 +52,12 @@ class Solution:
             return search_line(matrix[0], target)
         left = 0
         right = len(matrix) - 1
-        flag = 0
         while (left <= right):
             mid = left + ((right - left) >> 1)
             if matrix[mid][0] == target:
                 return True
-            # smaller before and bigger now, check current line
-            elif matrix[mid][0] > target and flag == -1:
-                return search_line(matrix[mid], target)
-            # bigger before and smaller now, check the line before
-            elif matrix[mid][0] < target and flag == 1:
-                return search_line(matrix[mid - 1], target)
-
-            # bigger before and bigger now ,keep moving
             elif matrix[mid][0] > target:
                 right = mid - 1
-            # smaller before and  smaller now ,keep moving
             elif matrix[mid][0] < target:
                 left = mid + 1
         return search_line(matrix[mid - 1], target) or search_line(
