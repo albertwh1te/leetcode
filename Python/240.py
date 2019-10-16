@@ -14,30 +14,38 @@
 #   [3,   6,  9, 16, 22],
 #   [10, 13, 14, 17, 24],
 #   [18, 21, 23, 26, 30]
-# ]
+# ]https://www.jianshu.com/p/b088c92930a0
 # Given target = 5, return true.
-
-
 # Given target = 20, return false.
-class Solution:
-    def binary_search(self, array, target, left, right):
-        while left < right:
-            mid = left + ((right - left) >> 1)
-            if array[mid] == target:
-                return True
-            elif array[mid] < target:
-                return self.binary_search(array, target, mid, right)
-            elif array[mid] > target:
-                return self.binary_search(array, target, left, mid)
-        return False
 
+# Solution:
+# Search from last item in first row,if bigger than target go left,
+# if less than target go down, if reach the head or reach the bottom,
+# return false.
+
+
+class Solution:
     def searchMatrix(self, matrix, target):
         """
         :type matrix: List[List[int]]
         :type target: int
         :rtype: bool
         """
-        pass
+        if len(matrix) < 1 or len(matrix[0]) < 1:
+            return False
+        # less than the smallest value or bigger than biggest value
+        if target < matrix[0][0] or target > matrix[-1][-1]:
+            return False
+        y = 0
+        x = len(matrix[0]) - 1
+        while y <= (len(matrix) - 1) and x >= 0:
+            if matrix[y][x] == target:
+                return True
+            elif matrix[y][x] < target:
+                y += 1
+            elif matrix[y][x] > target:
+                x -= 1
+        return False
 
 
 if __name__ == '__main__':
@@ -46,5 +54,7 @@ if __name__ == '__main__':
     t = Test(s.searchMatrix)
     matrix = [[1, 4, 7, 11, 15], [2, 5, 8, 12, 19], [3, 6, 9, 16, 22],
               [10, 13, 14, 17, 24], [18, 21, 23, 26, 30]]
-    t.equal(True, 5)
-    t.equal(False, 20)
+    t.equal(True, matrix, 5)
+    t.equal(False, matrix, 20)
+    matrix = [[-5]]
+    t.equal(True, matrix, -5)
