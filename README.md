@@ -108,7 +108,7 @@ I have solved these problems.
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/371.py)|TODO|TODO|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/374.cpp)|TODO|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/378.cpp)|TODO|
-|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/387.py)|TODO|TODO|
+|387|[First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/387.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/387.cpp)|TODO|
 |389|[Find the Difference](https://leetcode.com/problems/find-the-difference/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/389.py)|TODO|TODO|
 |406|[Queue Reconstruction by Height](https://leetcode.com/problems/queue-reconstruction-by-height/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/406.py)|TODO|TODO|
 |412|[Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/412.py)|TODO|TODO|
