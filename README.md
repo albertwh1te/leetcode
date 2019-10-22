@@ -140,7 +140,7 @@ I have solved these problems.
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/695.py)|TODO|TODO|
 |744|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/744.py)|TODO|TODO|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/746.py)|TODO|TODO|
-|763|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/763.py)|TODO|TODO|
+|763|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/763.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/763.cpp)|TODO|
 |771|[Encode N-ary Tree to Binary Tree](https://leetcode.com/problems/encode-n-ary-tree-to-binary-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/771.py)|TODO|TODO|
 |807|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/807.py)|TODO|TODO|
 |811|[Number of Subarrays with Bounded Maximum](https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/811.py)|TODO|TODO|
