@@ -44,7 +44,7 @@ I have solved these problems.
 |64|[Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/64.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/64.cpp)|TODO|
 |66|[Plus One](https://leetcode.com/problems/plus-one/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/66.py)|TODO|TODO|
 |69|[Sqrt(x)](https://leetcode.com/problems/sqrtx/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/69.cpp)|TODO|
-|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/70.py)|TODO|TODO|
+|70|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/70.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/70.cpp)|TODO|
 |73|[Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/73.py)|TODO|TODO|
 |74|[Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/74.py)|TODO|TODO|
 |77|[Combinations](https://leetcode.com/problems/combinations/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/77.py)|TODO|TODO|
