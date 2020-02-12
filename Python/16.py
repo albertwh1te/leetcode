@@ -11,7 +11,7 @@ class Solution:
             left = i + 1
             right = length - 1
             while left < right:
-                _sum = nums[left] + nums[i] + nums[right]
+                _sum = nums[i] + nums[left] + nums[right]
                 diff = target - _sum
                 if abs(diff) < min_diff:
                     min_diff = abs(diff)
