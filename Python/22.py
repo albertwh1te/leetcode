@@ -1,14 +1,11 @@
 class Solution:
     def generateParenthesisHelper(self, left, right, string):
         if left == 0 and right == 0:
-            self.results.append(string)
-            return
+            return self.results.append(string)
         if left > 0:
-            self.generateParenthesisHelper(
-                left - 1, right, string + "(")
+            self.generateParenthesisHelper(left - 1, right, string + "(")
         if right > left:
-            self.generateParenthesisHelper(
-                left, right - 1, string + ")")
+            self.generateParenthesisHelper(left, right - 1, string + ")")
 
     def generateParenthesis(self, n):
         """
@@ -20,15 +17,10 @@ class Solution:
         return sorted(set(self.results))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from util import Test
+
     s = Solution()
     t = Test(s.generateParenthesis)
-    result = [
-        "((()))",
-        "(()())",
-        "(())()",
-        "()(())",
-        "()()()"
-    ]
+    result = ["((()))", "(()())", "(())()", "()(())", "()()()"]
     t.equal(result, 3)
