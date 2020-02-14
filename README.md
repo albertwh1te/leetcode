@@ -27,6 +27,7 @@ I have solved these problems.
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/21.py)|TODO|TODO|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/22.py)|TODO|TODO|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/23.py)|TODO|TODO|
+|25|[Reverse Nodes in k-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/25.py)|TODO|TODO|
 |26|[Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/26.py)|TODO|TODO|
 |28|[Implement strStr()](https://leetcode.com/problems/implement-strstr/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/28.py)|TODO|TODO|
 |33|[Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/33.py)|TODO|TODO|
