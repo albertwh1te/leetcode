@@ -2,9 +2,40 @@
 some utility for algorithms practice
 """
 # just set the right function in production
-from typing import List, Any
+from typing import Any, List
 
 log = print
+
+
+def print_matrix(matrix):
+    for i in range(len(matrix)):
+        log(matrix[i])
+
+
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+def creat_linked_list_from_array(array: List[Any]) -> ListNode:
+    if len(array) == 0:
+        return None
+    current = ListNode(array[0])
+    head = current
+    for element in array[1:]:
+        current.next = ListNode(element)
+        current = current.next
+    return head
+
+
+def show_linked_list(head: ListNode):
+    result = []
+    current = head
+    while current:
+        result.append(current.val)
+        current = current.next
+    log("->".join(str(x) for x in result))
 
 
 def equal(reality, expect):
@@ -48,6 +79,11 @@ class Test(object):
 
 if __name__ == "__main__":
     # test for test :)
+
+    # Linked List related test
+    origin = creat_linked_list_from_array([3, 2, 1, 4, 5])
+    show_linked_list(origin)
+
     class foo:
         def fooPlusTwo(a, b):
             return a + b + 1
@@ -70,8 +106,3 @@ if __name__ == "__main__":
     t3.same_elements([1, 2, 3], [3, 2, 1])
     t3.equal([1, 2, 3], [3, 2, 1])
     t3.same_elements([[1], [2], [3]], [[3], [2], [1]])
-
-
-def print_matrix(matrix):
-    for i in range(len(matrix)):
-        log(matrix[i])
