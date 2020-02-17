@@ -10,4 +10,5 @@ class Solution:
         if left.val != right.val:
             return False
         return self.isMirror(left.right, right.left) and self.isMirror(
-            left.left, right.right)
+            left.left, right.right
+        )

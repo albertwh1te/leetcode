@@ -54,7 +54,8 @@ class Solution(object):
         return result
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     from util import Test
+
     t = Test(Solution().threeSum)
     t.equal([[-1, -1, 2], [-1, 0, 1]], [-1, 0, 1, 2, -1, -4])
