@@ -40,29 +40,34 @@ def show_linked_list(head: ListNode):
 
 def equal(reality, expect):
     if expect == reality:
-        log("Success,passed test with output:{reality}".format(reality=reality))
+        log("Success,passed test with output:{reality}".format(
+            reality=reality))
     else:
-        log(
-            "Falil,expect:{expect} but get:{reality}".format(
-                expect=expect, reality=reality
-            )
-        )
+        log("Falil,expect:{expect} but get:{reality}".format(expect=expect,
+                                                             reality=reality))
 
 
 def same_elements(reality: List[Any], expect: List[Any]):
+    if len(expect) == 0:
+        if len(reality) == 0:
+            return log("Success,passed test with output:{reality}".format(
+                reality=reality))
+
+    if len(reality) == 0:
+        return log("Falil,expect:{expect} but get:{reality}".format(
+            expect=expect, reality=reality))
+
     if type(expect[0]) == list:
         expect = sorted(expect)
         reality = sorted(reality)
         return equal(expect, reality)
 
     if set(expect) == set(reality):
-        log("Success,passed test with output:{reality}".format(reality=reality))
+        log("Success,passed test with output:{reality}".format(
+            reality=reality))
     else:
-        log(
-            "Falil,expect:{expect} but get:{reality}".format(
-                expect=expect, reality=reality
-            )
-        )
+        log("Falil,expect:{expect} but get:{reality}".format(expect=expect,
+                                                             reality=reality))
 
 
 class Test(object):
