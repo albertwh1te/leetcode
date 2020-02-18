@@ -52,6 +52,9 @@ def same_elements(reality: List[Any], expect: List[Any]):
         if len(reality) == 0:
             return log("Success,passed test with output:{reality}".format(
                 reality=reality))
+        else:
+            return log("Falil,expect:{expect} but get:{reality}".format(
+                expect=expect, reality=reality))
 
     if len(reality) == 0:
         return log("Falil,expect:{expect} but get:{reality}".format(
