@@ -32,7 +32,7 @@ class Solution:
     # because the price will go up and down
     # So We can find the minimum first and start finding the maximum
     # And to over and over again until the end
-    def maxProfit(self, prices: List[int]) -> int:
+    def maxProfit2(self, prices: List[int]) -> int:
         if not prices:
             return 0
         i = 0
@@ -50,9 +50,22 @@ class Solution:
             max_profit += maximum - minimum
         return max_profit
 
+    def maxProfit(self, prices: List[int]) -> int:
+        """ 
+        greedy approach ones local best move is if there is a profit we just swallow it
+        """
+        if not prices:
+            return 0
+        profit = 0
+        for i in range(len(prices) - 1):
+            if prices[i] < prices[i + 1]:
+                profit += prices[i + 1] - prices[i]
+        return profit
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     from util import Test
+
     t = Test(Solution().maxProfit)
     test = [7, 1, 5, 3, 6, 4]
     t.equal(7, test)
