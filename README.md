@@ -151,6 +151,7 @@ I have solved these problems.
 |677|[Map Sum Pairs](https://leetcode.com/problems/map-sum-pairs/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/677.py)|TODO|TODO|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/693.py)|TODO|TODO|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/695.py)|TODO|TODO|
+|714|[Best Time to Buy and Sell Stock with Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/714.py)|TODO|TODO|
 |744|[Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/744.py)|TODO|TODO|
 |746|[Prefix and Suffix Search](https://leetcode.com/problems/prefix-and-suffix-search/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/746.py)|TODO|TODO|
 |763|[Special Binary String](https://leetcode.com/problems/special-binary-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/763.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/763.cpp)|TODO|
