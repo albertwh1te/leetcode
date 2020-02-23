@@ -19,17 +19,17 @@ from typing import List
 class NumArray:
     def __init__(self, nums: List[int]):
         self.nums = nums
-        self.cache = {}
+        self.sum = [0 for _ in range(len(nums) + 1)]
+        for i in range(len(nums)):
+            self.sum[i + 1] = self.sum[i] + self.nums[i]
 
     def sumRange(self, i: int, j: int) -> int:
-        hit = self.cache.get((i, j))
-        if hit:
-            return hit
-        r = sum(self.nums[i:j + 1])
-        self.cache[(i, j)] = r
-        return r
+        return self.sum[j + 1] - self.sum[i]
 
 
-# Your NumArray object will be instantiated and called as such:
-# obj = NumArray(nums)
-# param_1 = obj.sumRange(i,j)
+if __name__ == "__main__":
+    n = NumArray([-2, 0, 3, -5, 2, -1])
+    print(n.sumRange(0, 2) == 1)
+    print(n.sumRange(2, 5) == -1)
+    print(n.sumRange(0, 5) == -3)
+
