@@ -13,6 +13,7 @@
 # Note:
 # You may assume that the array does not change.
 # There are many calls to sumRange function.
+from typing import List
 
 
 class NumArray:
