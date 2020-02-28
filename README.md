@@ -100,6 +100,7 @@ I have solved these problems.
 |237|[Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/237.py)|TODO|TODO|
 |239|[Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/239.py)|TODO|TODO|
 |240|[Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/240.py)|TODO|TODO|
+|241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/241.py)|TODO|TODO|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/242.py)|TODO|TODO|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/278.cpp)|TODO|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/283.py)|TODO|TODO|
