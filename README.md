@@ -135,6 +135,7 @@ I have solved these problems.
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/461.py)|TODO|TODO|
 |463|[Island Perimeter](https://leetcode.com/problems/island-perimeter/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/463.py)|TODO|TODO|
 |476|[Number Complement](https://leetcode.com/problems/number-complement/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/476.py)|TODO|TODO|
+|518|[Coin Change 2](https://leetcode.com/problems/coin-change-2/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/518.py)|TODO|TODO|
 |535|[Encode and Decode TinyURL](https://leetcode.com/problems/encode-and-decode-tinyurl/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/535.py)|TODO|TODO|
 |538|[Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/538.py)|TODO|TODO|
 |543|[Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/543.py)|TODO|TODO|
@@ -174,3 +175,5 @@ I have solved these problems.
 |977|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/977.py)|TODO|TODO|
 |979|[DI String Match](https://leetcode.com/problems/di-string-match/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/979.py)|TODO|TODO|
 |1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1071.py)|TODO|TODO|
+|1122|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1122.py)|TODO|TODO|
+|1281|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1281.py)|TODO|TODO|
