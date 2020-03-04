@@ -29,7 +29,6 @@ class TreeNode:
 from typing import List
 
 
-
 class Solution:
     def buildTree(self, preorder: List[int], inorder: List[int]) -> TreeNode:
         inorder_index = {v: i for i, v in enumerate(inorder)}
@@ -42,11 +41,10 @@ class Solution:
             root_index = inorder_index[root_value]
             left_length = root_index - inorder_start
             right_length = inorder_end - root_index
-            print(root_index,left_length,right_length)
             if left_length > 0:
                 root.left = helper(
                     preorder_start + 1,
-                    preorder_start + left_length ,
+                    preorder_start + left_length,
                     inorder_start,
                     inorder_start + left_length,
                 )
@@ -54,8 +52,8 @@ class Solution:
                 root.right = helper(
                     preorder_start + left_length + 1,
                     preorder_end,
-                    root_index+1,
-                    inorder_end
+                    root_index + 1,
+                    inorder_end,
                 )
             return root
 
