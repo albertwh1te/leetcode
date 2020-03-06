@@ -119,6 +119,7 @@ I have solved these problems.
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/337.py)|TODO|TODO|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/338.py)|TODO|TODO|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/350.py)|TODO|TODO|
+|367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/367.py)|TODO|TODO|
 |371|[Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/371.py)|TODO|TODO|
 |374|[Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/374.cpp)|TODO|
 |378|[Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/378.cpp)|TODO|
