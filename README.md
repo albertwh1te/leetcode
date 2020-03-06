@@ -82,6 +82,7 @@ I have solved these problems.
 |136|[Single Number](https://leetcode.com/problems/single-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/136.py)|TODO|TODO|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/141.py)|TODO|TODO|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/142.py)|TODO|TODO|
+|150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/150.py)|TODO|TODO|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/152.py)|TODO|TODO|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/153.py)|TODO|TODO|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/154.py)|TODO|TODO|
