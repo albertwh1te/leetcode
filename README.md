@@ -109,6 +109,7 @@ I have solved these problems.
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/283.py)|TODO|TODO|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/287.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/287.cpp)|TODO|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/290.py)|TODO|TODO|
+|295|[Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/295.py)|TODO|TODO|
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/300.py)|TODO|TODO|
 |303|[Range Sum Query - Immutable](https://leetcode.com/problems/range-sum-query-immutable/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/303.py)|TODO|TODO|
 |309|[Best Time to Buy and Sell Stock with Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/309.py)|TODO|TODO|
