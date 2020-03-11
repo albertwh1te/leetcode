@@ -28,19 +28,21 @@
 
 # Input: nums = [7,7,7,7]
 # Output: [0,0,0,0]
+from typing import List
 
 
 class Solution:
     def smallerNumbersThanCurrent(self, nums: List[int]) -> List[int]:
-        nums.sort()
         result = []
-        hash_table = dict()
-        for num in nums:
-            if hash_table.get(num): 
-        for index, value in enumerate(nums):
-            count = 0
-            for num in nums[:index]:
+        hash_table = {}
+        sorted_nums = sorted(nums)
+        for index, num in enumerate(sorted_nums):
+            if hash_table.get(num) == None:
+                hash_table[num] = index
 
+        for num in nums:
+            result.append(hash_table[num])
+        return result
 
 
 if __name__ == "__main__":
@@ -48,6 +50,6 @@ if __name__ == "__main__":
 
     s = Solution()
     t = Test(s.smallerNumbersThanCurrent)
-    t.equal([2,1,0,3],[6,5,4,8])
-    t.equal([7,7,7,7],[0,0,0,0])
+    t.equal([2, 1, 0, 3], [6, 5, 4, 8])
+    t.equal([0, 0, 0, 0], [7, 7, 7, 7])
 
