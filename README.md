@@ -180,6 +180,7 @@ I have solved these problems.
 |973|[Stamping The Sequence](https://leetcode.com/problems/stamping-the-sequence/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/973.py)|TODO|TODO|
 |977|[Distinct Subsequences II](https://leetcode.com/problems/distinct-subsequences-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/977.py)|TODO|TODO|
 |979|[DI String Match](https://leetcode.com/problems/di-string-match/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/979.py)|TODO|TODO|
+|1038|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1038.py)|TODO|TODO|
 |1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1071.py)|TODO|TODO|
 |1122|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1122.py)|TODO|TODO|
 |1221|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1221.py)|TODO|TODO|
