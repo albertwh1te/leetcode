@@ -21,9 +21,11 @@ class Codec:
         :type longUrl: str
         :rtype: str
         """
-        if not hasattr(self, 'alphatbet'):
-            self.alphatbet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-        if not hasattr(self, 'db'):
+        if not hasattr(self, "alphatbet"):
+            self.alphatbet = (
+                "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
+            )
+        if not hasattr(self, "db"):
             self.db = []
         if longUrl not in self.db:
             self.db.append(longUrl)
@@ -44,9 +46,13 @@ class Codec:
 # codec.decode(codec.encode(url))
 def main():
     t = Codec()
-    print(t.encode('http://www.ituring.com.cn/book/tupubarticle/21537'))
-    print(t.decode(t.encode('http://www.ituring.com.cn/book/tupubarticle/215372')))
+    print(t.encode("http://www.ituring.com.cn/book/tupubarticle/21537"))
+    print(t.decode(t.encode("http://www.ituring.com.cn/book/tupubarticle/215372")))
+    print(t.encode("http://www.ituring.com.cn/book/tupubarticle/21537"))
+    print(t.decode(t.encode("http://www.ituring.com.cn/book/tupubarticle/215372")))
+    print(t.encode("http://www.ituring.com.cn/book/tupubarticle/21537222"))
+    print(t.decode(t.encode("http://www.ituring.com.cn/book/tupubarticle/21537222")))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
