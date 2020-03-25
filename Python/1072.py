@@ -36,6 +36,8 @@ class Solution:
 
     so the key point is understand what we need memory is the pattern  [0,0,1] and [1,1,0] is the same pattern
     we can record all of pattern into a hash table and return the max one
+    time complexity O(m*n)
+    space complexity 0(m*n),  hash table key size m , every key has n length
     """
     def maxEqualRowsAfterFlips(self, matrix: List[List[int]]) -> int:
         result = 0
@@ -52,10 +54,6 @@ class Solution:
             result = max(result,hash_table[tuple(pattern)])
         return result
                 
-
-            
-        
-
 
 if __name__ == "__main__":
     from util import Test
