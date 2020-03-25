@@ -183,6 +183,7 @@ I have solved these problems.
 |979|[DI String Match](https://leetcode.com/problems/di-string-match/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/979.py)|TODO|TODO|
 |1038|[Number of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1038.py)|TODO|TODO|
 |1071|[Binary Prefix Divisible By 5](https://leetcode.com/problems/binary-prefix-divisible-by-5/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1071.py)|TODO|TODO|
+|1072|[Next Greater Node In Linked List](https://leetcode.com/problems/next-greater-node-in-linked-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1072.py)|TODO|TODO|
 |1122|[Longest Duplicate Substring](https://leetcode.com/problems/longest-duplicate-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1122.py)|TODO|TODO|
 |1221|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1221.py)|TODO|TODO|
 |1281|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1281.py)|TODO|TODO|
