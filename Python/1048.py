@@ -43,7 +43,7 @@ class Solution:
             return 0
 
         words = sorted(words, key=lambda x: len(x))
-        result = 0
+        result = 1
         dp = [1 for _ in words] + [1]
         for i, word in enumerate(words):
             for j, word2 in enumerate(words[:i]):
@@ -91,3 +91,4 @@ if __name__ == "__main__":
             "gru",
         ],
     )
+    t.equal(1, ["1", "1"])
