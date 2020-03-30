@@ -106,6 +106,7 @@ I have solved these problems.
 |241|[Different Ways to Add Parentheses](https://leetcode.com/problems/different-ways-to-add-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/241.py)|TODO|TODO|
 |242|[Valid Anagram](https://leetcode.com/problems/valid-anagram/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/242.py)|TODO|TODO|
 |278|[First Bad Version](https://leetcode.com/problems/first-bad-version/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/278.cpp)|TODO|
+|279|[Perfect Squares](https://leetcode.com/problems/perfect-squares/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/279.py)|TODO|TODO|
 |283|[Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/283.py)|TODO|TODO|
 |287|[Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/287.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/287.cpp)|TODO|
 |290|[Word Pattern](https://leetcode.com/problems/word-pattern/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/290.py)|TODO|TODO|
