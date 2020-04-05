@@ -27,4 +27,21 @@ class Solution:
             else:
                 current_sum = nums[i]
             dp[i] = max(current_sum, nums[i])
-        return dp[-1]
+        return max(dp)
+
+    def maxSubArray2(self, nums: List[int]) -> int:
+        dp = [0 for _ in nums]
+        dp[0] = nums[0]
+        for i in range(1, len(nums)):
+            dp[i] = max(dp[i - 1] + nums[i], nums[i])
+        return max(dp)
+
+
+if __name__ == "__main__":
+    from util import Test
+
+    s = Solution()
+    t = Test(s.maxSubArray)
+    t.equal(6, [-2, 1, -3, 4, -1, 2, 1, -5, 4])
+    t = Test(s.maxSubArray2)
+    t.equal(6, [-2, 1, -3, 4, -1, 2, 1, -5, 4])
