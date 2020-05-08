@@ -82,12 +82,14 @@ I have solved these problems.
 |136|[Single Number](https://leetcode.com/problems/single-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/136.py)|TODO|TODO|
 |141|[Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/141.py)|TODO|TODO|
 |142|[Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/142.py)|TODO|TODO|
+|148|[Sort List](https://leetcode.com/problems/sort-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/148.py)|TODO|TODO|
 |150|[Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/150.py)|TODO|TODO|
 |152|[Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/152.py)|TODO|TODO|
 |153|[Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/153.py)|TODO|TODO|
 |154|[Find Minimum in Rotated Sorted Array II](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/154.py)|TODO|TODO|
 |155|[Min Stack](https://leetcode.com/problems/min-stack/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/155.py)|TODO|TODO|
 |160|[Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/160.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/160.cpp)|TODO|
+|162|[Find Peak Element](https://leetcode.com/problems/find-peak-element/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/162.py)|TODO|TODO|
 |167|[Two Sum II - Input array is sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/)|TODO|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/167.cpp)|TODO|
 |189|[Rotate Array](https://leetcode.com/problems/rotate-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/189.py)|TODO|TODO|
 |198|[House Robber](https://leetcode.com/problems/house-robber/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/198.py)|TODO|TODO|
@@ -97,6 +99,7 @@ I have solved these problems.
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/206.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/206/206.go)|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/208.py)|TODO|TODO|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/213.py)|TODO|TODO|
+|215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/215.py)|TODO|TODO|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/217.py)|TODO|TODO|
 |219|[Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/219.py)|TODO|TODO|
 |232|[Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/232.py)|TODO|TODO|
