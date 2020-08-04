@@ -124,6 +124,7 @@ I have solved these problems.
 |334|[Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/334.py)|TODO|TODO|
 |337|[House Robber III](https://leetcode.com/problems/house-robber-iii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/337.py)|TODO|TODO|
 |338|[Counting Bits](https://leetcode.com/problems/counting-bits/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/338.py)|TODO|TODO|
+|342|[Power of Four](https://leetcode.com/problems/power-of-four/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/342.py)|TODO|TODO|
 |347|[Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/347.py)|TODO|TODO|
 |350|[Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/350.py)|TODO|TODO|
 |367|[Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/367.py)|TODO|TODO|
