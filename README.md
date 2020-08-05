@@ -39,6 +39,7 @@ I have solved these problems.
 |38|[Count and Say](https://leetcode.com/problems/count-and-say/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/38.py)|TODO|TODO|
 |39|[Combination Sum](https://leetcode.com/problems/combination-sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/39.py)|TODO|TODO|
 |42|[Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/42.py)|TODO|TODO|
+|46|[Permutations](https://leetcode.com/problems/permutations/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/46.py)|TODO|TODO|
 |48|[Rotate Image](https://leetcode.com/problems/rotate-image/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/48.py)|TODO|TODO|
 |49|[Group Anagrams](https://leetcode.com/problems/group-anagrams/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/49.py)|TODO|TODO|
 |51|[N-Queens](https://leetcode.com/problems/n-queens/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/51.py)|TODO|TODO|
