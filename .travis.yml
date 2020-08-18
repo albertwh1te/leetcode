@@ -11,7 +11,7 @@ after_script:
 - git status
 - git add README.md
 - git status
-- git commit -m "Update docs"
+- git commit -m "Update docs By Travis"
 - git push -f origin master
 env:
   global:
