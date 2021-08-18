@@ -201,5 +201,6 @@ I have solved these problems.
 |1221|[Element Appearing More Than 25% In Sorted Array](https://leetcode.com/problems/element-appearing-more-than-25-in-sorted-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1221.py)|TODO|TODO|
 |1281|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1281.py)|TODO|TODO|
 |1282|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1282.py)|TODO|TODO|
+|1293|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1293.py)|TODO|TODO|
 |1534|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1534.py)|TODO|TODO|
 |1535|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1535.py)|TODO|TODO|
