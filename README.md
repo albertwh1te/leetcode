@@ -23,7 +23,7 @@ I have solved these problems.
 |17|[Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/17.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/17.cpp)|TODO|
 |18|[4Sum](https://leetcode.com/problems/4sum/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/18.py)|TODO|TODO|
 |19|[Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/19.py)|TODO|TODO|
-|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/20.py)|TODO|TODO|
+|20|[Valid Parentheses](https://leetcode.com/problems/valid-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/20.py)|[C++](https://github.com/MarkWh1te/leetcode/blob/master/cpluscplus/20.cpp)|TODO|
 |21|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/21.py)|TODO|TODO|
 |22|[Generate Parentheses](https://leetcode.com/problems/generate-parentheses/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/22.py)|TODO|TODO|
 |23|[Merge k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/23.py)|TODO|TODO|
@@ -99,6 +99,7 @@ I have solved these problems.
 |204|[Count Primes](https://leetcode.com/problems/count-primes/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/204.py)|TODO|TODO|
 |206|[Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/206.py)|TODO|[Go](https://github.com/MarkWh1te/leetcode/blob/master/Golang/206/206.go)|
 |208|[Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/208.py)|TODO|TODO|
+|211|[Design Add and Search Words Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/211.py)|TODO|TODO|
 |213|[House Robber II](https://leetcode.com/problems/house-robber-ii/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/213.py)|TODO|TODO|
 |215|[Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/215.py)|TODO|TODO|
 |217|[Contains Duplicate](https://leetcode.com/problems/contains-duplicate/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/217.py)|TODO|TODO|
@@ -202,5 +203,8 @@ I have solved these problems.
 |1281|[Can Make Palindrome from Substring](https://leetcode.com/problems/can-make-palindrome-from-substring/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1281.py)|TODO|TODO|
 |1282|[Number of Valid Words for Each Puzzle](https://leetcode.com/problems/number-of-valid-words-for-each-puzzle/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1282.py)|TODO|TODO|
 |1293|[Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1293.py)|TODO|TODO|
+|1295|[Minimum Garden Perimeter to Collect Enough Apples](https://leetcode.com/problems/minimum-garden-perimeter-to-collect-enough-apples/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1295.py)|TODO|TODO|
+|1302|[Delete Characters to Make Fancy String](https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1302.py)|TODO|TODO|
+|1313|[Count Ways to Build Rooms in an Ant Colony](https://leetcode.com/problems/count-ways-to-build-rooms-in-an-ant-colony/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1313.py)|TODO|TODO|
 |1534|[Minimum Number of Frogs Croaking](https://leetcode.com/problems/minimum-number-of-frogs-croaking/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1534.py)|TODO|TODO|
 |1535|[Build Array Where You Can Find The Maximum Exactly K Comparisons](https://leetcode.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/description/)|[Python](https://github.com/MarkWh1te/leetcode/blob/master/Python/1535.py)|TODO|TODO|
